@@ -4,7 +4,12 @@
   import * as Accordion from '#lib/components/ui/accordion/index.js';
   import { Badge } from '#lib/components/ui/badge/index.js';
 
-  let { code, name, children }: { code: string; name: string; children: Snippet } = $props();
+  let {
+    code,
+    name,
+    rate = '$50/hr',
+    children
+  }: { code: string; name: string; rate?: string; children: Snippet } = $props();
   const serviceId = $props.id();
   const triggerId = `${serviceId}-trigger`;
   const contentId = `${serviceId}-content`;
@@ -14,6 +19,7 @@
   <Accordion.Trigger id={triggerId} aria-controls={contentId} class="service-trigger" level={2}>
     <Badge variant="secondary" class="cert-code">{code}</Badge>
     <span class="service-name">{name}</span>
+    <span class="service-rate">{rate}</span>
     {#snippet icon()}
       <Plus
         class="service-toggle motion-safe:transition-transform motion-safe:duration-200"

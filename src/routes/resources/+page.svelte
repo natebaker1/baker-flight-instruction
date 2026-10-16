@@ -11,7 +11,7 @@
 
 <PageHeader
   title="Training Resources"
-  description="Training reasources that are recommended, and approved."
+  description="Recommended references, tools, and study material for every stage of training."
 />
 
 <div class="content-column">
@@ -55,7 +55,7 @@
   </section>
 
   <section class="panel">
-    <div class="panel-heading"><h2>Other Resources and Tools</h2></div>
+    <div class="panel-heading"><h2>Tools and References</h2></div>
     <ul class="cert-list">
       <li>
         <Badge variant="secondary" class="cert-code">WX</Badge>
@@ -75,10 +75,10 @@
             <a
               href="https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
               target="_blank"
-              rel="noopener">Pilot's Handbook of Aeronautical Knowledege</a
+              rel="noopener">Pilot's Handbook of Aeronautical Knowledge</a
             >
           </p>
-          <p class="cert-meta">Official weather briefings and flight plan filing</p>
+          <p class="cert-meta">The FAA’s core textbook for aeronautical knowledge</p>
         </div>
       </li>
       <li>

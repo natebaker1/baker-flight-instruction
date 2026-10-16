@@ -27,8 +27,8 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-display);
-  --font-serif: var(--font-body);
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-accent);
   --font-mono: var(--font-data);
   --color-background: var(--background);
   --color-foreground: var(--foreground);

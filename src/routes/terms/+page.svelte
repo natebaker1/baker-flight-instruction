@@ -10,7 +10,7 @@
 
 <PageHeader
   title="Terms of Service"
-  description="Below are listed the terms of service for flight instruction."
+  description="The terms that apply to all flight and ground instruction."
 />
 
 <div class="content-column">
@@ -49,7 +49,7 @@
   <section class="panel">
     <div class="panel-heading"><h2>Weather and Safety Policy</h2></div>
     <p>
-      Saftey is the number one priority. It is an essential part of learning to be a pilot. It is a
+      Safety is the number one priority. It is an essential part of learning to be a pilot. It is a
       variable that we need to be aware of and plan for.
     </p>
     <div>

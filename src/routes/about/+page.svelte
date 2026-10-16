@@ -9,47 +9,50 @@
   description="Meet Nate Baker, a flight instructor based in North Texas. Learn about his aviation background, certificates, ratings, and nearby airports."
 />
 
-<PageHeader title="About Me" />
+<PageHeader
+  title="About Me"
+  description="A North Texas flight instructor who loves to fly, and loves to teach."
+/>
 
-<section class="page-header about-story" aria-label="About Nate Baker">
-  <p class="page-lede">I am passionate about aviation and love to fly!</p>
+<section class="about-story" aria-label="About Nate Baker">
+  <div class="shell about-story-grid">
+    <figure class="about-portrait">
+      <img
+        src="/images/nate-aircraft.webp"
+        alt="Nate Baker standing beside a Piper training aircraft"
+        class="about-photo"
+        width="1200"
+        height="1600"
+        loading="lazy"
+      />
+      <figcaption>
+        <span class="data-label">Nate Baker</span>
+        <span class="data-label">CFI · CFII</span>
+      </figcaption>
+    </figure>
 
-  <p class="page-lede">
-    I have always been interested in flying. I grew up hearing stories from family and with a
-    passion for adventure. In 2023 I decided to pursue a professional career as a pilot.
-  </p>
+    <div class="about-copy">
+      <p class="about-opening">I am passionate about aviation and love to fly!</p>
 
-  <p class="page-lede">
-    I began my aviation journey through a Part 141 flight school program, earning my Private,
-    Instrument, Commercial, Multi-Engine, CFI, and CFII certificates and ratings. My training taught
-    me the importance of preparation, discipline, sound decision-making, and maintaining a high
-    standard of safety in every flight.
-  </p>
+      <p>
+        I have always been interested in flying. I grew up hearing stories from family, with a
+        passion for adventure. In 2023 I decided to pursue a professional career as a pilot.
+      </p>
 
-  <p class="page-lede">
-    Today, I have the privilege of sharing what I’ve learned with others. As a flight instructor I
-    believe great flight instruction goes beyond teaching someone how to control the aircraft. It is
-    about developing good judgment, building confidence, understanding the why behind each decision.
-    I prepare students to operate safely and independently.
-  </p>
+      <p>
+        I began my aviation journey through a Part 141 flight school program, earning my Private,
+        Instrument, Commercial, Multi-Engine, CFI, and CFII certificates and ratings. My training
+        taught me the importance of preparation, discipline, sound decision-making, and a high
+        standard of safety on every flight.
+      </p>
 
-  <div class="about-intro">
-    <img
-      src="/images/nate-aircraft.webp"
-      alt="Nate Baker standing next to a training aircraft"
-      class="about-photo"
-      width="1200"
-      height="900"
-      loading="lazy"
-    />
-    <img
-      src="/images/aircraft-sunrise.webp"
-      alt="Training aircraft at sunrise"
-      class="about-photo"
-      width="1179"
-      height="1319"
-      loading="lazy"
-    />
+      <p>
+        Today, I have the privilege of sharing what I’ve learned with others. I believe great flight
+        instruction goes beyond teaching someone how to control the aircraft. It is about developing
+        good judgment, building confidence, and understanding the why behind each decision. I
+        prepare students to operate safely and independently.
+      </p>
+    </div>
   </div>
 </section>
 
@@ -98,23 +101,23 @@
     <div class="panel-heading"><h2>Based in North Texas</h2></div>
     <div class="location-body">
       <p>
-        Within easy reach of most airports in North Texas. Will commute to airports near you to
-        deliver premier flight instruction.
+        Within easy reach of most airports in North Texas. I will travel to an airport near you for
+        your lessons.
       </p>
       <div class="coord-strip">
         <div>
-          <p class="coord-label">Base</p>
+          <p class="data-label">Base</p>
           <p class="coord-value">Dallas-Fort Worth, TX</p>
         </div>
         <div>
-          <p class="coord-label">Nearest fields</p>
+          <p class="data-label">Nearest fields</p>
           <p class="coord-value">KDTO / KFTW</p>
         </div>
         <div>
-          <p class="coord-label">LinkedIn</p>
+          <p class="data-label">LinkedIn</p>
           <p class="coord-value">
             <a href="https://www.linkedin.com/in/nate-baker-cfii" target="_blank" rel="noopener"
-              >www.linkedin.com/in/nate-baker-cfii</a
+              >nate-baker-cfii</a
             >
           </p>
         </div>

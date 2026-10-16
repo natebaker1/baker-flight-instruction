@@ -13,14 +13,18 @@
 
 <PageHeader
   title="Services Offered"
-  description="Tap a service to see what's included and the rate. Contract instructor rates are listed. Aircraft rentals will vary based on aircraft and location."
+  description="Select a service to see what's included. Rates shown are for contract instruction; aircraft rental varies by aircraft and location."
 />
 
 <div class="content-column">
   <section class="panel">
+    <div class="panel-heading">
+      <h2>Instruction</h2>
+      <p>One instructor rate for every service: $50 per hour.</p>
+    </div>
     <Accordion.Root type="multiple" class="service-list">
       <ServiceItem code="FLT" name="Flight Instruction">
-        <p>In-airplane training to build real world skills, confidence, and safety.</p>
+        <p>In-airplane training to build real-world skills, confidence, and safety.</p>
         <ul class="sub-cert-list">
           <li>
             <Badge variant="secondary" class="cert-code">PPL</Badge>
@@ -70,7 +74,7 @@
 
       <ServiceItem code="DSC" name="Discovery Flights">
         <p>
-          A first flight lesson for new students - get a feel for the controls and see if flying is
+          A first flight lesson for new students. Get a feel for the controls and see if flying is
           for you.
         </p>
         <p class="service-price">Instructor Rate: $50/hr</p>
@@ -92,7 +96,7 @@
     <div class="panel-heading"><h2>Lesson Policies</h2></div>
     <div class="location-body">
       <p>
-        See <i>Terms of Service</i> for more details.
+        The essentials are below. See the <a href="/terms">Terms of Service</a> for full details.
       </p>
       <ul class="cert-list">
         <li>

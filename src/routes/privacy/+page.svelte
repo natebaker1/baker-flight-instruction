@@ -10,7 +10,7 @@
 
 <PageHeader
   title="Privacy Policy"
-  description="Privacy policy is listed below. If you have any questions please feel free to reach out."
+  description="How information sent through this site is used. Questions are always welcome."
 />
 
 <div class="content-column">
