@@ -10,8 +10,11 @@
 <header class="site-nav">
   <div class="nav-inner">
     <a class="site-brand" href="/" aria-label="Baker Flight Instruction home">
-      <img src="/images/airplane-logo.webp" alt="" width="48" height="48" />
-      <span>Baker<span class="brand-subtitle">Flight Instruction</span></span>
+      <img src="/images/airplane-logo.webp" alt="" width="40" height="40" />
+      <span class="brand-wordmark"
+        ><span class="brand-name">Baker</span><span class="brand-subtitle">Flight Instruction</span
+        ></span
+      >
     </a>
     <NavigationMenu.Root class="site-navigation" viewport={false} aria-label="Main navigation">
       <NavigationMenu.List class="nav-links">

@@ -11,14 +11,14 @@
 
 <PageHeader
   title="Support"
-  description="For anyone who'd like to support - completely optional, never expected."
+  description="For anyone who would like to support. Completely optional, never expected."
 />
 
 <div class="content-column">
   <section class="panel">
     <div class="panel-heading"><h2>Support Your Instructor</h2></div>
     <p>
-      Financial support goes straight toward paying down my flight training loans and to add
+      Financial support goes straight toward paying down my flight training loans and adding
       resources to the training offered. If a lesson, a resource on this site, or just a
       conversation about flying helped you out, a tip is always appreciated but never expected.
     </p>

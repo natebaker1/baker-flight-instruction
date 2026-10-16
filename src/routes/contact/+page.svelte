@@ -24,11 +24,29 @@
   description="Contact Baker Flight Instruction to discuss flight training, discovery flights, flight reviews, and your aviation goals."
 />
 
-<PageHeader title="Contact" description="Need a flight instructor? Reach out below." />
+<PageHeader
+  title="Contact"
+  description="Need a flight instructor? Tell me where you are in your training and what you want to work toward."
+/>
 
 <div class="content-column">
   <section class="panel">
-    <div class="panel-heading"><h2>Send a Message</h2></div>
+    <div class="panel-heading">
+      <h2>Send a message</h2>
+      <p>Share your goals and your availability, and I will reply by email.</p>
+      <ul class="contact-list">
+        <li>
+          <span class="data-label">Based in</span>
+          <span>Dallas–Fort Worth, TX</span>
+        </li>
+        <li>
+          <span class="data-label">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/nate-baker-cfii" target="_blank" rel="noopener"
+            >nate-baker-cfii</a
+          >
+        </li>
+      </ul>
+    </div>
     <form class="contact-form" action="https://formspree.io/f/mbgllpkv" method="POST">
       <Field class="form-row">
         <Label for="name">Name</Label>
@@ -61,16 +79,5 @@
       </Field>
       <Button type="submit" class="btn-primary">Send message</Button>
     </form>
-  </section>
-
-  <section class="panel">
-    <ul class="contact-list">
-      <li>
-        <span class="contact-label">LinkedIn</span>
-        <a href="https://www.linkedin.com/in/nate-baker-cfii" target="_blank" rel="noopener"
-          >www.linkedin.com/in/nate-baker-cfii</a
-        >
-      </li>
-    </ul>
   </section>
 </div>
