@@ -1,0 +1,24 @@
+{
+  "worktree": {
+    "setup": "pnpm install --frozen-lockfile"
+  },
+  "scripts": {
+    "setup": {
+      "command": "pnpm install --frozen-lockfile"
+    },
+    "dev": {
+      "type": "service",
+      "command": "pnpm dev --port \"$PASEO_PORT\""
+    },
+    "check": {
+      "command": "pnpm check"
+    },
+    "build": {
+      "command": "pnpm build && pnpm check:static"
+    },
+    "preview": {
+      "type": "service",
+      "command": "pnpm build && pnpm check:static && pnpm preview --port \"$PASEO_PORT\""
+    }
+  }
+}

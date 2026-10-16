@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "baker-flight-instruction",
+  "compatibility_date": "2026-10-16",
+  "build": {
+    "command": "pnpm build && pnpm check:static"
+  },
+  "assets": {
+    "directory": "./build",
+    "html_handling": "drop-trailing-slash"
+  }
+}
